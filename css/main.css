@@ -1,0 +1,180 @@
+body {
+  overflow-x: hidden;
+}
+
+h3 {
+  line-height: 3rem;
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+}
+
+p {
+  line-height: 2.5rem;
+  letter-spacing: 0.2rem;
+  font-size: 1.1rem;
+}
+
+.button-btn {
+  color: #d6d503;
+  border: solid 1px #d6d503;
+}
+
+.section-banner {
+  color: #ffffff;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../../imgs/piggy.png");
+  background-size: 100% 100%;
+}
+
+.section-banner h3 {
+  color: #ffffff;
+}
+
+.banner {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100%;
+}
+
+.banner-text {
+  width: 50%;
+}
+
+/* Smaller than tablet */
+@media (max-width: 1200px) {
+  .banner-text {
+    text-align: center;
+    width: 90%;
+  }
+}
+
+/* Smaller than tablet */
+@media (max-width: 1000px) {
+  .section-banner {
+    background-image: url("../../../imgs/mobile/mob_piggy.png");
+  }
+}
+
+/* Larger than phablet */
+@media (max-width: 550px) {
+  .banner-text h3 {
+    line-height: 2.2rem;
+  }
+  .banner-text p {
+    line-height: 2rem;
+  }
+}
+
+.section-about {
+  padding: 10rem 0;
+}
+
+@media (max-width: 1200px) {
+  .section-about {
+    text-align: center;
+  }
+}
+
+.service-section {
+  width: 100%;
+}
+
+.service-section h3 {
+  color: #ffffff;
+}
+
+.service-section p {
+  color: #ffffff;
+}
+
+.service-area_first h3 {
+  color: #000000;
+}
+
+.service-area_first p {
+  color: #000000;
+}
+
+.service-area {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2rem 5rem;
+}
+
+.service-area_first {
+  background-color: #d6d503;
+}
+
+.service-area_second {
+  background-color: #081b21;
+}
+
+.service-area_third {
+  background-color: #081b21;
+}
+
+.button-service {
+  color: #081b21;
+  border: solid 1px #081b21;
+}
+
+@media (max-width: 1200px) {
+  .service-section {
+    text-align: center;
+  }
+}
+
+.footer {
+  background-color: #081b21;
+  padding-top: 5rem;
+}
+
+.footer_text {
+  color: #d6d503;
+}
+
+.footer li {
+  padding-top: 1rem;
+}
+
+.footer-wrapper {
+  margin-bottom: 5rem;
+}
+
+.about-header {
+  height: 80vh;
+  background-color: #081b21;
+}
+
+.about-main {
+  padding: 6rem 0;
+}
+
+.fir-about {
+  padding: 5rem 3rem;
+  background-color: #081b21;
+}
+
+.sec-about {
+  padding: 5rem 3rem;
+  background-color: #d6d503;
+}
+
+.Programmes {
+  padding: 6rem 0;
+}
+
+.Programme_heading {
+  margin-left: 2rem;
+}
+
+.Programme_list li {
+  padding: 0.5rem 0;
+  list-style: none;
+}
+
+.Programme_icon {
+  margin-right: 0.5rem;
+}
+/*# sourceMappingURL=main.css.map */

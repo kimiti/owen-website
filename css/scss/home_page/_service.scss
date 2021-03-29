@@ -1,0 +1,42 @@
+.service-section {
+  width: 100%;
+}
+
+.service-section h3 {
+  color: $color-white;
+}
+.service-section p {
+  color: $color-white;
+}
+
+.service-area_first h3 {
+  color: $color-black;
+}
+.service-area_first p {
+  color: $color-black;
+}
+.service-area {
+  box-sizing: border-box;
+  padding: 2rem 5rem;
+}
+.service-area_first {
+  background-color: $color-primary;
+}
+
+.service-area_second {
+  background-color: $color-accent;
+}
+
+.service-area_third {
+  background-color: $color-accent;
+}
+.button-service {
+  color: $color-accent;
+  border: solid 1px $color-accent;
+}
+
+@media (max-width: 1200px) {
+  .service-section {
+    text-align: center;
+  }
+}

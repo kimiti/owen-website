@@ -1,0 +1,43 @@
+.section-banner {
+  color: $color-white;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../../imgs/piggy.png");
+  background-size: 100% 100%;
+}
+.section-banner h3 {
+  color: $color-white;
+}
+.banner {
+  background: rgba($color: #000000, $alpha: 0.5);
+  height: 100vh;
+  width: 100%;
+}
+.banner-text {
+  width: 50%;
+}
+
+/* Smaller than tablet */
+@media (max-width: 1200px) {
+  .banner-text {
+    text-align: center;
+    width: 90%;
+  }
+}
+
+/* Smaller than tablet */
+@media (max-width: 1000px) {
+  .section-banner {
+    background-image: url("../../../imgs/mobile/mob_piggy.png");
+  }
+}
+
+/* Larger than phablet */
+@media (max-width: 550px) {
+  .banner-text h3 {
+    line-height: 2.2rem;
+  }
+  .banner-text p {
+    line-height: 2rem;
+  }
+}
